@@ -14,11 +14,15 @@ The target variables are 7 types of defects: Pastry, Z_Scratch, K_Scatch, Stains
 
 ### Supervised learning problem:
 
-Our objective is to predict the probability of each of the 7 binary targets when given a random steel plate that has 27 features.
-
-SER CRITICO NA ANALISE DOS TRABALHOS, apresentação mais importante do que codigo (beleza, mostrar e vender projeto)
+Our objective is to predict the probability of each of the 7 binary targets on a given random steel plate that has 27 features.
 
 ### Instructions on how to use program:
+
+If you haven't the necessary libraries installed run:
+> pip install pandas numpy matplotlib seaborn
+
+To run the EDA:
+> python eda.py
 
 Project developed by:
 - Tomás Ferreira de Oliveira
