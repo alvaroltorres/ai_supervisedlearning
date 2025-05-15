@@ -39,10 +39,6 @@ htmlcov/
 *.log
 pip-log.txt
 
-# Project specific - EDA outputs
-eda/*.png
-eda/*.csv
-
 # OS specific
 .DS_Store
 Thumbs.db
