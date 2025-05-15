@@ -276,7 +276,7 @@ else:
 
 print("\n--- End of EDA and Initial Preprocessing Considerations ---")
 
-# --- Train dataset splitting ---
+# --- TRAIN DATASET SPLITTING ---
 
 from sklearn.model_selection import train_test_split
 
