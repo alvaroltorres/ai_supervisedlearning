@@ -1,0 +1,4 @@
+,Subset Accuracy,Precision (Samples),Recall (Samples),F1-Score (Samples),Hamming Loss,Train Time (s),Test Time (s),Best Params
+Decision Tree (OvR),0.3350676378772112,0.40157821713492886,0.4832206035379813,0.4276361429066944,0.14196521480600566,41.84122133255005,0.00970911979675293,"{'estimator__criterion': 'entropy', 'estimator__max_depth': None, 'estimator__min_samples_leaf': 1, 'estimator__min_samples_split': 2}"
+k-NN,0.43730489073881373,0.4274193548387097,0.42702913631633715,0.427159209157128,0.128437639363758,14.153239011764526,1.2175319194793701,"{'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}"
+MLP Classifier,0.4308012486992716,0.42273673257023936,0.427159209157128,0.42403746097814776,0.12107923294187602,318.2658836841583,0.00731348991394043,"{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (50, 25), 'learning_rate_init': 0.01}"
