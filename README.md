@@ -73,11 +73,8 @@ Our objective is to predict the probability of each of the 7 binary targets on a
 
 ### Instructions on how to use program:
 
-If you haven't the necessary libraries installed run:
-> pip install pandas numpy matplotlib seaborn scikit-learn
-
-To run the EDA:
-> python eda.py
+First, install jupyter notebook and its corresponding VSCode extension.
+Then, just run the notebook.
 
 Project developed by:
 - Tomás Ferreira de Oliveira
