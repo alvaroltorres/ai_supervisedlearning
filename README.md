@@ -74,7 +74,19 @@ Our objective is to predict the probability of each of the 7 binary targets on a
 ### Instructions on how to use program:
 
 First, install jupyter notebook and its corresponding VSCode extension.
-Then, just run the notebook.
+Then, create a vitual environment using `venv`:
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+Install all required dependencies:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn joblib jupyterlab notebook
+```
+Lastly, just run the notebook.
 
 Project developed by:
 - Tomás Ferreira de Oliveira
